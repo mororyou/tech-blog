@@ -1,0 +1,4 @@
+.mainVisualBackground {
+  filter: brightness(30%);
+  @apply min-w-full overflow-y-hidden bg-opacity-30 object-cover object-center md:max-h-full;
+}

@@ -3,3 +3,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.grid-layout {
+  @apply mb-8 grid grid-cols-12 gap-y-4 md:mb-16 md:gap-x-8 md:gap-y-12;
+}
+
+.pickup-card {
+ width: 100%;
+ border-radius: 50px;
+ background: #f7f7f7;
+@apply col-span-1 flex flex-col justify-center items-center h-40 shadow;
+}
+
+.pickup-card:hover img {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
